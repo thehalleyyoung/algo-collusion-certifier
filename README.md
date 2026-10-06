@@ -12,7 +12,6 @@
   <a href="#installation"><img src="https://img.shields.io/badge/build-passing-brightgreen?style=flat-square" alt="Build Status"></a>
   <a href="LICENSE"><img src="https://img.shields.io/badge/license-MIT-blue.svg?style=flat-square" alt="License: MIT"></a>
   <a href="https://www.rust-lang.org"><img src="https://img.shields.io/badge/rust-1.70%2B-orange.svg?style=flat-square&logo=rust" alt="Rust 1.70+"></a>
-  <a href="#citation"><img src="https://img.shields.io/badge/paper-EC%202025-purple.svg?style=flat-square" alt="Paper: EC 2025"></a>
   <a href="#benchmarks"><img src="https://img.shields.io/badge/crates-8-informational?style=flat-square" alt="Crates: 8"></a>
 </p>
 
@@ -686,16 +685,12 @@ cargo clippy --all-targets    # lint
 ## Citation
 
 ```bibtex
-@inproceedings{collusionproof2025,
-  title     = {{CollusionProof}: Proof-Carrying Collusion Certificates via
-               Compositional Statistical Testing and Counterfactual Deviation
-               Analysis for Black-Box Algorithmic Pricing Markets},
-  author    = {Anonymous},
-  booktitle = {Proceedings of the 26th ACM Conference on Economics and
-               Computation (EC '25)},
-  year      = {2025},
-  publisher = {ACM},
-  note      = {Under review}
+@misc{collusionproof,
+  title        = {{CollusionProof}: Proof-Carrying Collusion Certificates for
+                  Black-Box Algorithmic Pricing Markets},
+  author       = {Young, Halley},
+  year         = {2026},
+  howpublished = {\url{https://github.com/thehalleyyoung/algo-collusion-certifier}}
 }
 ```
 
